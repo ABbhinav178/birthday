@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happiest Birthday Akansha 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── Floating Decorations ─── -->
+  <div class="decoration" style="top:3%;left:2%">🎈</div>
+  <div class="decoration" style="top:5%;left:10%">🎀</div>
+  <div class="decoration" style="top:12%;left:1%">🍦</div>
+  <div class="decoration" style="top:25%;left:3%">🌸</div>
+  <div class="decoration" style="top:38%;left:0.5%">🕯️</div>
+  <div class="decoration" style="top:52%;left:2%">🌺</div>
+  <div class="decoration" style="top:65%;left:4%">🍦</div>
+  <div class="decoration" style="top:80%;left:1%">⭐</div>
+  <div class="decoration" style="top:90%;left:6%">🎁</div>
+
+  <div class="decoration" style="top:3%;right:2%">🎈</div>
+  <div class="decoration" style="top:8%;right:8%">💜</div>
+  <div class="decoration" style="top:15%;right:1%">🍦</div>
+  <div class="decoration" style="top:28%;right:3%">🌸</div>
+  <div class="decoration" style="top:42%;right:0.5%">🕯️</div>
+  <div class="decoration" style="top:55%;right:2%">🌺</div>
+  <div class="decoration" style="top:68%;right:4%">🍦</div>
+  <div class="decoration" style="top:78%;right:1%">⭐</div>
+  <div class="decoration" style="top:88%;right:6%">🎁</div>
+
+  <div class="decoration" style="bottom:5%;left:15%">🎂</div>
+  <div class="decoration" style="bottom:8%;left:30%">✨</div>
+  <div class="decoration" style="bottom:5%;right:15%">🎂</div>
+  <div class="decoration" style="bottom:8%;right:30%">✨</div>
+
+  <!-- ─── Confetti Canvas ─── -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- ─── Music Toggle ─── -->
+  <button class="music-btn" id="musicBtn" aria-label="Toggle background music">
+    🎵
+    <span class="music-label">Music</span>
+  </button>
+
+  <!-- ─── Main Card ─── -->
+  <main class="page-wrap">
+    <article class="card" id="mainCard">
+
+      <!-- Sparkles -->
+      <span class="sparkle" style="top:6%;left:8%">✦</span>
+      <span class="sparkle" style="top:3%;right:12%">✧</span>
+      <span class="sparkle" style="bottom:20%;left:5%">✦</span>
+      <span class="sparkle" style="bottom:15%;right:7%">✧</span>
+      <span class="sparkle" style="top:40%;left:3%">✦</span>
+      <span class="sparkle" style="top:55%;right:4%">✧</span>
+
+      <!-- Heading -->
+      <header class="card-header">
+        <h1 class="title-top">Happiest Birthday</h1>
+        <h1 class="title-name">Akansha</h1>
+      </header>
+
+      <!-- Photo Row -->
+      <section class="photos-row">
+        <div class="polaroid polaroid--left">
+          <div class="tape"></div>
+          <img src="images/photo1.jpg" alt="Photo 1" loading="lazy" />
+          <p class="polaroid-caption">Always smiling ✨</p>
+        </div>
+
+        <div class="floating-heart">❤️</div>
+
+        <div class="polaroid polaroid--center">
+          <div class="tape"></div>
+          <img src="images/photo2.jpg" alt="Photo 2" loading="lazy" />
+          <p class="polaroid-caption">Pure sunshine ☀️</p>
+        </div>
+
+        <div class="polaroid polaroid--right">
+          <div class="tape"></div>
+          <img src="images/photo3.jpg" alt="Photo 3" loading="lazy" />
+          <p class="polaroid-caption">Beautiful soul 🌸</p>
+        </div>
+      </section>
+
+      <!-- Birthday Messages -->
+      <section class="messages">
+        <p class="msg msg--1">
+          Wishing you a day filled with love, laughter, and all your favorite things!&nbsp;🎉
+        </p>
+        <p class="msg msg--2">
+          May this year bring you endless joy, beautiful moments, and wonderful memories!&nbsp;🎂✨
+        </p>
+        <p class="msg msg--3">
+          You deserve all the happiness in the world!&nbsp;🌸💖
+        </p>
+      </section>
+
+      <!-- Dot Nav Decoration -->
+      <div class="dot-row" aria-hidden="true">
+        <span class="dot" style="background:#d16ba5"></span>
+        <span class="dot" style="background:#c777b9"></span>
+        <span class="dot" style="background:#ba83ca"></span>
+        <span class="dot" style="background:#aa8fd8"></span>
+        <span class="dot" style="background:#9a9ae1"></span>
+        <span class="dot" style="background:#8aa7ec"></span>
+        <span class="dot" style="background:#79b3f4"></span>
+        <span class="dot" style="background:#69bff8"></span>
+      </div>
+
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
